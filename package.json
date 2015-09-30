@@ -1,0 +1,29 @@
+{
+  "name": "system-pixi",
+  "version": "1.0.0",
+  "description": "system-pixi",
+  "main": "",
+  "scripts": {
+    "postinstall": "node_modules/.bin/jspm install",
+    "start": "node_modules/.bin/live-server",
+    "test": ""
+  },
+  "author": "Krzysztof Kula @krzychukula",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "jspm": {
+    "dependencies": {
+      "pixi.js": "npm:pixi.js@^3.0.7"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.11",
+    "live-server": "^0.8.1"
+  }
+}
